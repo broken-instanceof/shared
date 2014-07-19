@@ -1,5 +1,5 @@
 function Ctor(){
-	this.speak = function(){ return 'hey'; };
+	this.speak = function(){ console.log('hey'); };
 }
 
 module.exports = Ctor;
